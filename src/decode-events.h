@@ -33,6 +33,9 @@ enum {
     IPV4_IPLEN_SMALLER_THAN_HLEN, /**< ipv4 pkt len smaller than ip header size */
     IPV4_TRUNC_PKT,               /**< truncated ipv4 packet */
 
+    /* ARP EVENTS */
+    ARP_PKT_TOO_SMALL = 0,       /**< arp pkt smaller than minimum header size */
+
     /* IPV4 OPTIONS */
     IPV4_OPT_INVALID,      /**< invalid ip options */
     IPV4_OPT_INVALID_LEN,  /**< ip options with invalid len */
