@@ -15,6 +15,7 @@ typedef struct _ARPHdr {
     uint32_t arp_des_ip;     /**< Destination IP address */
 } ARPHdr;
 
+
 // int DecodeARP(ThreadVars *, DecodeThreadVars *, Packet *, const uint8_t *, uint32_t );
 
 #endif /* __DECODE_ARP_H__ */
